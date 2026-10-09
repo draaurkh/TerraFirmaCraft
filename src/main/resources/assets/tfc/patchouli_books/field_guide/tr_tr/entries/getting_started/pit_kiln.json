@@ -1,20 +1,20 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Çukur Fırınlar",
+  "name": "Çukur Fırın",
   "category": "tfc:getting_started",
   "icon": "tfc:textures/gui/book/icons/pit_kiln.png",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "A pit kiln is an early game method of $(l:core_mechanics/heating)heating$() items up. It can be used to $(thing)fire$() clay into ceramic, for example. The pit kiln, over the time period of about $(cfg:pitKilnTicks), will heat its contents up to $(cfg:pitKilnTemperature), or $(bold)$(cfg:pitKilnHeat)$()."
+      "text": "Oyunun başlarındayken yüksek sıcaklıkta eşya $(l:core_mechanics/heating)ısıtmanın$() yöntemlerinden biri çukur fırındır. Örneğin kili $(thing)pişirerek$() seramiğe dönüştürmek için kullanılabilir. Çukur fırınlar, içerisinde bulunan malzemeleri $(cfg:pitKilnTicks) boyunca $(cfg:pitKilnTemperature) veya $(bold)$(cfg:pitKilnHeat)$() derecesine kadar ısıtır."
     },
     {
       "type": "patchouli:text",
-      "text": "Bir çukur fırın inşa etmek için şunlara ihtiyacınız olacak:$(br)$(li)Pişirilecek en fazla dört eşya.$(li)Sekiz adet $(thing)Saman$()$(li)Sekiz adet $(thing)Kütük$()$(li)Bir $(l:getting_started/firepit#firestarter)Ateş Başlatıcı$() veya $(thing)Meşale$() gibi ateş yakabilen bir eşya.$(br2)$(bold)Not:$() Meşaleler, sadece çukur fırının üzerine atılıp birkaç saniye beklenerek ateş yakabilir."
+      "text": "Bir çukur fırın yaparken ihtiyacın olacak şeyler:$(br)$(li)En çok dört adet pişirilecek eşya$(li)Sekiz demet $(thing)Saman$()$(li)Sekiz adet $(thing)Kütük$()$(li)$(l:getting_started/firepit#firestarter)Ateş Başlatıcı$(), $(thing)Meşale$() gibi ateş yakabilen bir eşya.$(br2)$(bold)Not:$() Bir meşaleyi çukur fırın üzerine atıp birkaç saniye beklersen çukur fırın tutuşacaktır."
     },
     {
       "type": "patchouli:text",
-      "text": "Bir çukur fırın oluşturmak için:$(br2)$(bold)1.$() $(item)$(k:tfc.key.place_block)$() tuşunu kullanarak 1x1'lik bir çukura en fazla dört eşya yerleştirin.$(br)$(bold)2.$() Eşyalar kapanana kadar çukur fırında sekiz adet $(thing)Saman$() veya iki adet $(thing)Saz$() bloğu kullanın.$(br)$(bold)3.$() Dolana kadar çukur fırında sekiz adet $(thing)Kütük$() kullanın.$(br)$(bold)4.$() Çukur fırının üzerini ateşe verin!$(br2)Çukur fırın daha sonra altı saat boyunca yanacak ve içindeki eşyaları yavaşça $(l:core_mechanics/heating)ısıtacaktır$()."
+      "text": "Bir çukur fırın yapmak için:$(br2)$(bold)1.$() 1x1'lik bir çukura en fazla dört eşyayı $(item)$(k:tfc.key.place_block)$() ile yerleştir.$(br)$(bold)2.$() Eşyaların üstü örtülene kadar sekiz demet $(thing)Saman$() ya da iki adet $(thing)Saman Bloğu$() kullan.$(br)$(bold)3.$() Fırın dolana kadar sekiz adet $(thing)Kütük$() kullan.$(br)$(bold)4.$() Fırının üzerini ateşe ver!$(br2)Bundan sonra çukur fırının $(cfg:pitKilnTicks) boyunca yanacak ve içindeki eşyaları yavaşça $(l:core_mechanics/heating)ısıtacaktır$()."
     },
     {
       "type": "patchouli:image",
@@ -25,7 +25,7 @@
         "tfc:textures/gui/book/tutorial/pit_kiln_4.png",
         "tfc:textures/gui/book/tutorial/pit_kiln_5.png"
       ],
-      "text": "Eğitim: çukur fırın oluşturma.",
+      "text": "Eğitim: çukur fırın oluşturma",
       "border": true
     }
   ],

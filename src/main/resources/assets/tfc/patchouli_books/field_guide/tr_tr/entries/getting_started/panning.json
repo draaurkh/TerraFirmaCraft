@@ -1,22 +1,22 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Tavalama",
+  "name": "Maden Eleme",
   "category": "tfc:getting_started",
   "icon": "tfc:textures/gui/book/icons/panning.png",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Tavalama$(), nehirlerde ve diğer su yollarında arama yaparak belirli doğal cevherlerin küçük parçalarını elde etme yöntemidir.$(br2)Tavalama, göllerin ve nehirlerin tabanındaki çakıl yataklarında bulunan $(thing)Cevher Yataklarından$() yararlanır.$(br2)Tavalama işlemine başlamak için boş bir tavaya ihtiyacınız olacaktır."
+      "text": "$(thing)Maden Eleme$(), nehirlerde ve diğer su yollarında arama yaparak belirli doğal cevherlerden küçük parçalar elde etmenin bir yöntemidir.$(br2)Maden elerken göl ve nehirlerin tabanındaki küçük çakıl alanlarda bulunan $(thing)Cevher Birikintilerinden$() yararlanılır.$(br2)Maden elemeye başlamadan önce boş bir eleğe ihtiyacın olacak."
     },
     {
       "type": "tfc:knapping_recipe",
       "recipe": "tfc:knapping/ceramic/unfired_pan",
-      "text": "Kil, yukarıda gösterildiği gibi bir tava oluşturmak için $(l:getting_started/pottery)yontulabilir$()."
+      "text": "Kili yukarıdaki gibi $(l:getting_started/pottery)şekillendirerek$() bir maden eleği oluşturabilirsin."
     },
     {
       "type": "tfc:heat_recipe",
       "recipe": "tfc:heating/pan/empty",
-      "text": "Tava $(thing)yontulduktan$() sonra, $(thing)Seramik Tava$() oluşturmak için $(l:core_mechanics/heating)pişirilmesi$() gerekir.$(br2)Bulmanız gereken bir sonraki şey bir tür $(thing)Cevher Yatağıdır$(). Cevher yatakları birkaç farklı cevherden oluşabilir: Doğal Bakır, Doğal Gümüş, Doğal Altın ve Kassiterit."
+      "text": "Bir $(thing)Seramik Maden Eleği$() yapmak için $(thing)kile şekil verildikten$() sonra $(l:core_mechanics/heating)pişirilmelidir$().$(br2)Bulman gereken bir sonraki şey ise bir çeşit $(thing)Cevher Birikintisidir$(). Cevher birikintilerinin birkaç farklı türü vardır: doğal bakır, doğal gümüş, doğal altın, kasiterit."
     },
     {
       "type": "patchouli:multiblock",
@@ -34,12 +34,12 @@
         }
       },
       "name": "Örnek",
-      "text": "Arduvaz içinde bir doğal altın yatağı.",
+      "text": "Kayrak taşı çakılında birikmiş doğal altın",
       "enable_visualize": false
     },
     {
       "type": "patchouli:text",
-      "text": "Artık tavalamaya başlayabilirsiniz!$(br2)$(bold)1.$() Tava elinizdeyken, onu cevher yatağı bloğu üzerinde $(thing)kullanın$().$(br2)$(bold)2.$() Tava elinizdeyken suyun içinde durun, $(item)$(k:key.use)$() tuşuna basılı tutun ve tavalamaya başlayın.$(br2)$(bold)3.$() Birkaç dakika sonra, şanslıysanız, envanterinizde küçük bir parça cevher ile ödüllendirilebilirsiniz."
+      "text": "Artık maden elemeye girişebilirsin!$(br2)$(bold)1.$() Eleği cevher birikintisi üzerinde $(thing)kullan$().$(br2)$(bold)2.$() Elinde elek varken suda durup $(item)$(k:key.use)$() basılı tutarsan elemeye başlayacaksın.$(br2)$(bold)3.$() Bir süre sonra, eğer şanslıysan küçük bir parça cevher ile ödüllendirilirsin."
     },
     {
       "type": "patchouli:image",
@@ -50,8 +50,8 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Tavalama üç olası ürün verebilir: $(thing)Cevher$(), $(thing)Gevşek Kaya$() ve $(l:mechanics/gems)Değerli Taşlar$(). Olasılıklar şu şekildedir:$(br)$(li)Cevher: %50$(li)Gevşek Kaya: %25$(li)Değerli Taş: %1$()Her kaya türünün, sadece o türe özel olarak düşüreceği belirli bir değerli taşı vardır.",
-      "title": "Eleme Ürünleri"
+      "text": "Maden elemekten elde edebilecekleriniz: $(thing)Cevherler$(), $(thing)Taş Parçaları$(), $(l:mechanics/gems)Değerli Taşlar$(). Olasılıkları şu şekildedir:$(br)$(li)Cevher: %50 $(li)Taş Parçası: %25 $(li)Değerli Taş: %1 $(br2)Her kaya türünün, sadece o türe özel olarak düşürebileceği belirli bir değerli taş türü vardır.",
+      "title": "Maden Eleme Ürünleri"
     }
   ],
   "read_by_default": true,

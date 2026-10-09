@@ -6,40 +6,40 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Alaşımlar$(), yeni ve daha güçlü bir metal oluşturmak için iki veya daha fazla metali bir araya getirme yöntemidir. Oyunun başlarında bakır, alet yapmak için kullanışlı bir metal olsa da, bir sonraki metal seviyesi üç $(thing)Bronz$() türünden biridir. Bir alaşım, her biri toplamın belirli bir yüzdesini karşılaması gereken bileşen $(thing)metallerden$() oluşur."
+      "text": "$(thing)Alaşımlar$(), iki veya daha fazla metali karıştırarak oluşturulan daha güçlü metallerdir. Alet yapmak için oyunun başlarında kullanışlı olan bakır, yerini bir sonraki metal seviyesi olan üç farklı $(thing)Bronz$() türüne bırakır. Bir alaşım, her biri bütünün belirli bir yüzdesini karşılaması gereken $(thing)metal$() bileşenlerinden oluşur."
     },
     {
       "type": "patchouli:text",
-      "text": "Oyunun başlarında alaşım yapmanın bir yöntemi $(thing)Küçük Kap$() kullanmaktır. Bu işlem $(l:getting_started/finding_ores#casting)Döküm$() işlemine çok benzer. Ancak, sadece tek bir metal kullanmak yerine, bilinen bir alaşım karışımı oluşturmak için kabın içine doğru oranda yeterli miktarda cevher parçası yerleştirin."
+      "text": "Oyunun başlarında alaşım yapmanın yöntemlerinden biri $(thing)Küp$() kullanmaktır. Bu işlem $(l:getting_started/finding_ores#casting)Döküm$() işlemine çok benzer. Tek farkı, yalnızca bir tip metal kullanmak yerine yeterince cevher parçasını doğru oranda küpün içine yerleştirerek bilinen bir alaşım karışımı oluşturmaktır."
     },
     {
       "type": "patchouli:text",
-      "text": "Örneğin, 1000 mB $(thing)Bronz$() (sağda gösterilmiştir) oluşturmak için 880 ile 920 mB arasında $(thing)Bakır$() ve 80 ile 120 mB arasında $(thing)Kalay$() gerekir.$(br2)Sonraki üç sayfa, üç bronz türünün tariflerini göstermektedir. Her bronz türü aletler, $(l:mechanics/armor)Zırh$() ve diğer metal eşyaları yapmak için kullanılabilir. Birbirlerinden biraz farklıdırlar, bu nedenle ortaya çıkan aletlerin dayanıklılığı, verimliliği ve saldırı hasarı farklı olacaktır."
+      "text": "Örneğin 1000 mB $(thing)Bronz$() (yan sayfada) oluşturmak için 880 ila 920 mB $(thing)Bakır$(), 80 ila 120 mB $(thing)Kalay$() gerekir.$(br2)Sonraki üç sayfada üç bronz türünün tarifleri gösterilmektedir. Her tür bronz ile alet, $(l:mechanics/armor)Zırh$() ve diğer metal eşyalar yapılabilir. Birbirlerinden biraz farklı oldukları için farklı bronzlarla yapılan aletlerin dayanıklılık, verimlilik ve saldırı hasarı değerleri farklı olacaktır."
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/bronze",
       "title": "Bronz",
       "link_recipes": false,
-      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)88 - 92 % : $(thing)Bakır$()$(li)8 - 12 % : $(thing)Kalay$()$(br2)"
+      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)% 88 - 92 : $(thing)Bakır$()$(li)% 8 - 12 : $(thing)Kalay$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/bismuth_bronze",
-      "title": "Bizmut Bronzu",
+      "title": "Bizmut Bronz",
       "link_recipes": false,
-      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)20 - 30 % : $(thing)Çinko$()$(li)50 - 65 % : $(thing)Bakır$()$(li)10 - 20 % : $(thing)Bizmut$()$(br2)"
+      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)% 20 - 30 : $(thing)Çinko$()$(li)% 50 - 65 : $(thing)Bakır$()$(li)% 10 - 20 : $(thing)Bizmut$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/black_bronze",
       "title": "Siyah Bronz",
       "link_recipes": false,
-      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)50 - 70 % : $(thing)Bakır$()$(li)10 - 25 % : $(thing)Gümüş$()$(li)10 - 25 % : $(thing)Altın$()$(br2)"
+      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)% 50 - 70 : $(thing)Bakır$()$(li)% 10 - 25 : $(thing)Gümüş$()$(li)% 10 - 25 : $(thing)Altın$()$(br2)"
     },
     {
       "type": "patchouli:text",
-      "text": "Diğer alaşımlar alet yapmak için uygun değildir. Bunlar $(thing)Pirinç$(), $(thing)Pembe Altın$() ve $(thing)Som Gümüş$() alaşımlarıdır.$(br2)$(thing)Pirinç$(), $(l:mechanics/mechanical_power)Mekanik Güç$() dahil olmak üzere her türlü düzenek için kullanışlı bir alaşımdır.$(br2)$(thing)Pembe Altın$() ve $(thing)Som Gümüş$(), $(l:metalworking/steel#red_steel)Kızıl Çelik$() ve $(l:metalworking/steel#blue_steel)Mavi Çelik$() üretimi için kullanılır.",
+      "text": "Diğer alaşımlar alet yapmak için uygun değildir. Bunlar $(thing)Pirinç$(), $(thing)Pembe Altın$() ve $(thing)Som Gümüş$() alaşımlarıdır.$(br2)$(thing)Pirinç$(), $(l:mechanics/mechanical_power)Makineler$() de dahil her türlü düzenek için kullanışlı bir alaşımdır.$(br2)$(thing)Pembe Altın$() ve $(thing)Som Gümüş$(), $(l:metalworking/steel#red_steel)Kızıl Çelik$() ve $(l:metalworking/steel#blue_steel)Mavi Çelik$() üretimi için kullanılır.",
       "title": "Yardımcı Alaşımlar"
     },
     {
@@ -48,21 +48,21 @@
       "item": "tfc:metal/ingot/brass",
       "title": "Pirinç",
       "link_recipes": false,
-      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)88 - 92 % : $(thing)Bakır$()$(li)8 - 12 % : $(thing)Çinko$()$(br2)"
+      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)% 88 - 92 : $(thing)Bakır$()$(li)% 8 - 12 : $(thing)Çinko$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/rose_gold",
-      "title": "Rose Altın",
+      "title": "Pembe Altın",
       "link_recipes": false,
-      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)15 - 30 % : $(thing)Bakır$()$(li)70 - 85 % : $(thing)Altın$()$(br2)"
+      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)% 15 - 30 : $(thing)Bakır$()$(li)% 70 - 85 : $(thing)Altın$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/sterling_silver",
       "title": "Som Gümüş",
       "link_recipes": false,
-      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)20 - 40 % : $(thing)Bakır$()$(li)60 - 80 % : $(thing)Gümüş$()$(br2)"
+      "text": "$(br)$(bold)Gereksinimler:$()$(br)$(li)% 20 - 40 : $(thing)Bakır$()$(li)% 60 - 80 : $(thing)Gümüş$()$(br2)"
     }
   ],
   "read_by_default": true,

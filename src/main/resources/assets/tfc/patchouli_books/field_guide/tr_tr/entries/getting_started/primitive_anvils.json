@@ -6,21 +6,21 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Oyunun başlarında aletleri doğrudan dökümle yapmaya bir alternatif ve daha üst seviye metaller için bir gereklilik, bir $(thing)Örs$() kullanmaktır. Örs, iki farklı işlem için kullanılabilen bir bloktur: $(l:metalworking/anvils#working)Şekillendirme$() ve $(l:metalworking/anvils#welding)Kaynaklama$(). Bu bölüm size sadece ilk ilkel taş örsünüzü nasıl elde edeceğinizi gösterecektir."
+      "text": "Oyunun başlarında, aletleri doğrudan döküm yoluyla yapmanın yanı sıra üst seviye metaller için gerekli olan $(thing)Örs$() de kullanılabilir. Örsler iki farklı işlem için kullanılabilen bloklardır: $(l:metalworking/anvils#working)Metal İşleme$() ve $(l:metalworking/anvils#welding)Kaynak Yapma$(). Bu bölüm sadece ilk taştan örsünü nasıl elde edeceğini anlatacak."
     },
     {
       "type": "patchouli:text",
-      "text": "Öncelikle, $(thing)Yüzey Volkanik$() (Riyolit, Bazalt, Andezit veya Dasit) veya $(thing)Derinlik Volkanik$() (Granit, diyorit veya Gabro) türünde bir $(thing)Ham Kaya$() bloğu edinmeniz gerekir. Dünyada açıkta duran bir blok bulup kullanabilir veya çevredeki kayalardan bir tane $(l:getting_started/primitive_anvils#raw_rock)çıkarabilirsiniz$()."
+      "text": "Öncelikle bir blok $(thing)Ham Kaya$() edinmen gerek ki bu $(thing)Volkanik$() (Riyolit, Bazalt, Andezit, Dasit) ya da $(thing)Plütonik$() (Granit, Diyorit, Gabro) bir kayaç olabilir. Bu bloklardan dünyada açıkta duran bir tanesini bulup doğrudan kullanabilirsin veya etrafındaki kayacın içinden $(l:getting_started/primitive_anvils#raw_rock)çıkarıp$() alabilirsin."
     },
     {
       "type": "patchouli:text",
       "anchor": "stone_anvils",
-      "text": "Ayrıca herhangi bir malzemeden yapılmış bir $(thing)Çekiç$() gerekecektir. Örsü yapmak için, bu ham kaya bloklarından birinin açıkta duran $(thing)üst$() yüzeyine $(thing)çekiç$() ile sağ tıklamanız yeterlidir; işte bu kadar! Bir örs oluşacaktır.$(br2)Örslerin $(l:metalworking/anvils#tiers)seviyeleri$() vardır ve taş örs 0. Seviyedir; yani en düşük seviyedir. Sadece I. Seviye külçeleri $(l:metalworking/anvils#welding)Kaynaklayabilir$().",
-      "title": "Taş Örs"
+      "text": "Bu iş için sana herhangi bir $(thing)Çekiç$() gerekecek. Örs oluşturmak için, şu ham kaya bloklarından birinin açıktaki $(thing)üst$() yüzeyine $(thing)çekiç$() ile sağ tıklaman yeterlidir. İşte, nur topu gibi bir örsün oldu!$(br2)Örslerin $(l:metalworking/anvils#tiers)seviyeleri$() vardır. Taştan yapılan örs, Seviye 0, yani en düşük seviyedir. Bu örs ile sadece Seviye I külçelere $(l:metalworking/anvils#welding)kaynak yapılabilir$().",
+      "title": "Taştan Örs"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Ortadaki ham kayayı örse dönüştürme.",
+      "text": "Ortadaki ham kayayı örse dönüştürme",
       "multiblocks": [
         {
           "pattern": [
@@ -42,12 +42,12 @@
     {
       "type": "patchouli:text",
       "anchor": "raw_rock",
-      "text": "Bir ham kaya bloğunu daha küçük taşlara ayırmadan elde etmek için, onun $(thing)çıkarılması$() gerekir. Bir ham kaya bloğunun altı tarafındaki blokları da kazmalısınız; blok her taraftan hava ile çevrildiğinde, yerden alınabilecek bir eşya olarak düşecektir.",
+      "text": "Bir ham kaya bloğunu daha küçük taşlara ayırmadan elde edebilmek için etrafındaki kayaçtan $(thing)çıkarılması$() gerekir. Bunun için o bloğun altı tarafındaki bitişik tüm blokları kazmalısın. Her tarafı hava ile çevrildiğinde, toplanabilecek bir eşya olarak düşecektir.",
       "title": "Ham Kaya Elde Etme"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Bir ham taş parçasının altı tarafını da kazmak; işlem tamamlandığında, merkezdeki blok bir eşya olarak düşecektir.",
+      "text": "Bir ham kaya bloğunun altı tarafı da kazılınca merkezdeki blok bir eşya olarak düşer.",
       "multiblocks": [
         {
           "pattern": [

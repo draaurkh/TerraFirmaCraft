@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "TerraFirmaCraft'ta elde edebileceğiniz ilk şeyler çubuklar, ince dallar ve gevşek taşlardır. Bunlar neredeyse her iklimde, yerde dağınık halde bulunabilirler. Bunları toplamak için $(item)$(k:key.use)$() tuşunu kullanın veya kırın."
+      "text": "TerraFirmaCraft'ta elde edebileceğin ilk şeyler çubuk, ince dal ve taş parçalarıdır. Bunlar neredeyse tüm iklim şartlarında bulunabilir olup yeryüzünde etrafa dağılmış haldedirler. Kırarak ya da $(item)$(k:key.use)$() ile toplayabilirsin."
     },
     {
       "type": "patchouli:multiblock",
@@ -37,24 +37,24 @@
         }
       },
       "name": "Örnek",
-      "text": "Birkaç yaygın çubuk ve taş.",
+      "text": "Yaygın çubuk ve taşlardan birkaç örnek",
       "enable_visualize": false
     },
     {
       "type": "patchouli:text",
-      "text": "Yerde çubuk ve ince dal toplamaya ek olarak, çubuklar yaprakları yumruğunuzla kırarak da elde edilebilir. Elinizde yeterince taş ve çubuk olduğunda, $(thing)Yontma$() işlemine başlamaya hazırsınız demektir. Yontma, belirli bir şekil oluşturmak için iki taşın birbirine vurulduğu bir işlemdir. Yontma yapmak için, önce elinizde en az iki taş tutun, ardından havada sağ tıklayın; bu, $(thing)Yontma Arayüzünü$() açacaktır."
+      "text": "Yerden toplamanın yanı sıra ağaç yapraklarını yumrukla kırarak da çubuk elde edebilirsin. Birkaç çubuk ve taş topladığın vakit $(thing)Şekillendirme$() işlemine başlamaya hazırsın demektir. Şekillendirme, iki taşın birbirine vurularak belirli bir biçim aldırılması işlemidir. Bunun için elinde en az iki adet taş bulunduğundan emin olduktan sonra havaya sağ tıklayıp $(thing)Şekillendirme Arayüzü$()ne eriş."
     },
     {
       "type": "patchouli:image",
       "images": [
         "tfc:textures/gui/book/gui/rock_knapping.png"
       ],
-      "text": "Yontma Arayüzü.",
+      "text": "Şekillendirme Arayüzü",
       "border": false
     },
     {
       "type": "patchouli:text",
-      "text": "Belirli bir eşyayı yontmak için, istediğiniz deseni oluşturana kadar kareleri kaldırmanız gerekir. Örneğin, sağda gösterilen tarifi eşleştirerek bir bıçak ağzı oluşturun.$(br2)Üretim tariflerinde olduğu gibi, istenen desenin konumu çıktı için önemli değildir ve bazı tariflerin geçerli birden fazla varyantı vardır."
+      "text": "Bir eşya şekillendirmek için o eşyanın deseni oluşana kadar kareleri kaldırman gerekir. Denemek için sağda gösterilen tarife uyarak bir bıçak ağzı oluştur.$(br2)Üretim tariflerinde de olduğu gibi, ürünün oluşması için desenin konumu önemli değildir. Hatta bazı tariflerin birden fazla geçerli çeşidi vardır."
     },
     {
       "type": "tfc:rock_knapping_recipe",
@@ -65,12 +65,12 @@
         "tfc:knapping/stone/knife_head/igneous_extrusive",
         "tfc:knapping/stone/knife_head/igneous_intrusive"
       ],
-      "text": "Birkaç farklı kaya türünden üretilmiş bir bıçak ağzı."
+      "text": "Birkaç farklı kaya türünden üretilebilen bir bıçak ağzı"
     },
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/stone/knife/sedimentary",
-      "text": "Tüm taş alet başlıkları, bir alet haline getirmek için bir çubuk veya ince dal ile birleştirilebilir.$(br2)Taş bıçak, bitkileri kırarak $(thing)Saman$() hasat etmek için kullanılabilir."
+      "text": "Taştan yapılmış tüm alet kafaları bir adet çubuk veya ince dal ile birleştirilerek alet haline getirilebilir.$(br2)Taş bıçak ile bitkileri kırarak $(thing)Saman$() toplayabilirsin."
     },
     {
       "type": "tfc:rock_knapping_recipe",
@@ -80,7 +80,7 @@
         "tfc:knapping/stone/axe_head/igneous_extrusive",
         "tfc:knapping/stone/axe_head/igneous_intrusive"
       ],
-      "text": "$(thing)Baltalar$(), kütükler ve yapraklar dahil olmak üzere tüm ağaçları kesmek için kullanılabilir. Ancak, fidanlar ve çubuklar yalnızca yapraklar tek tek kırılırsa elde edilebilir."
+      "text": "Bir ağacın tamamını (kütükleri ve yaprakları ile beraber) kesmek için $(thing)Balta$() kullanılabilir. Fakat fidan ve çubuklar için yapraklar tek tek kırılmalıdır."
     },
     {
       "type": "tfc:rock_knapping_recipe",
@@ -90,7 +90,7 @@
         "tfc:knapping/stone/shovel_head/igneous_extrusive",
         "tfc:knapping/stone/shovel_head/igneous_intrusive"
       ],
-      "text": "$(thing)Kürekler$(), toprak tipi blokları kazmak için kullanılabilir. Ayrıca $(thing)Toprak$() veya $(thing)Çimen$() üzerinde $(item)kullanılarak$() $(thing)Yollar$() oluşturmak için de kullanılabilirler."
+      "text": "Toprak gibi blokları kazmak için $(thing)Kürek$() kullanılabilir. Ayrıca $(thing)Toprak$() veya $(thing)Çimen$() üzerinde $(item)kullanılarak$() $(thing)Yol$() oluşturulabilir."
     },
     {
       "type": "tfc:rock_knapping_recipe",
@@ -100,7 +100,7 @@
         "tfc:knapping/stone/hoe_head/igneous_extrusive",
         "tfc:knapping/stone/hoe_head/igneous_intrusive"
       ],
-      "text": "$(thing)Çapalar$(), $(l:food/crops)Tarım$() için yararlı aletlerdir, ancak yaprakları ve diğer bitki maddelerini kesmek için de kullanılabilirler."
+      "text": "$(l:food/crops)Tarımda$() kullanışlı olan $(thing)Çapa$() aynı zamanda yaprakları ve diğer bitkileri kesmek için de kullanılabilir."
     },
     {
       "type": "tfc:rock_knapping_recipe",
@@ -110,7 +110,7 @@
         "tfc:knapping/stone/hammer_head/igneous_extrusive",
         "tfc:knapping/stone/hammer_head/igneous_intrusive"
       ],
-      "text": "$(thing)Çekiçler$(), $(l:core_mechanics/damage_types)Ezici$() silahlar olarak kullanılabilir, ancak daha çok $(l:getting_started/primitive_anvils)Demircilik$() için kullanılan önemli aletlerdir."
+      "text": "$(thing)Çekiç$(), $(l:core_mechanics/damage_types)Ezici$() bir silah olarak kullanılabilen ancak $(l:getting_started/primitive_anvils)Demircilikteki$() kullanımı daha önemli olan bir alettir."
     },
     {
       "type": "tfc:rock_knapping_recipe",
@@ -120,7 +120,7 @@
         "tfc:knapping/stone/javelin_head/igneous_extrusive",
         "tfc:knapping/stone/javelin_head/igneous_intrusive"
       ],
-      "text": "Son olarak, $(thing)Cirit$(), hedeflere fırlatılabilen veya $(l:core_mechanics/damage_types)Delici$() bir silah olarak kullanılabilen ilkel bir silahtır."
+      "text": "Son olarak $(thing)Mızrak$(), hedeflere fırlatılabilen ve $(l:core_mechanics/damage_types)Delme$() hasarı verebilen ilkel bir silahtır."
     }
   ],
   "read_by_default": true,

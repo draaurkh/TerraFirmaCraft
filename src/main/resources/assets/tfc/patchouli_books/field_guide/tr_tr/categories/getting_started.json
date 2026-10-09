@@ -1,7 +1,7 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Başlangıç",
-  "description": "TerraFirmaCraft dünyasında hayatta kalmaya giriş. Taş devrinde nasıl hayatta kalınır ve ilk kazmanız nasıl elde edilir.",
+  "name": "İlk Adımlar",
+  "description": "TerraFirmaCraft dünyasında hayatta kalabilmek için atılacak ilk adımlar. Taş çağında hayatta kalmanın ve ilk kazmanı elde etmenin yolları.",
   "icon": "tfc:stone/axe/sedimentary",
   "sortnum": 0
 }

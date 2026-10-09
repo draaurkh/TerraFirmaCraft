@@ -40,7 +40,7 @@
     {
       "type": "patchouli:text",
       "text": "Eleme işlemi üç olası ürün verebilir: $(thing)Cevher$(), $(thing)Gevşek Kaya$() ve $(l:mechanics/gems)Değerli Taşlar$(). Olasılıklar şu şekildedir:$(br)$(li)Cevher: %55$(li)Gevşek Kaya: %22,5$(li)Değerli Taş: %0,9$()Her kaya türünün, sadece o türe özel olarak düşüreceği belirli bir değerli taşı vardır.",
-      "title": "Eleme Ürünleri"
+      "title": "Maden Eleme Ürünleri"
     }
   ],
   "read_by_default": true,

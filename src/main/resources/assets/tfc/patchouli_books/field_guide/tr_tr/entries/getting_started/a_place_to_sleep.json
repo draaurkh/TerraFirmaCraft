@@ -1,12 +1,12 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Uyuyacak Bir Yer",
+  "name": "Uyunacak Bir Yer",
   "category": "tfc:getting_started",
   "icon": "tfc:medium_raw_hide",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Şaka bir yana! $(thing)Saz Yatak$(), geceyi uyuyarak geçirmenizi sağlamasa da yeniden doğma noktanızı belirlemek için kullanılabilecek ilkel bir yataktır. Bir saz yatak yapmak için iki $(thing)Saz$() bloğunu yan yana yerleştirin, ardından $(thing)Büyük Ham Deri$() ile sağ tıklayın. Büyük deriler, $(thing)ayılar$() ve $(thing)inekler$() gibi daha büyük hayvanlardan düşer."
+      "text": "Kandırdım! $(thing)Saman Yatak$() ilkel bir yataktır. Geceyi uyuyarak geçirmeni sağlayamaz ama yeniden doğma noktanı belirlemek için kullanılabilir. Bir saman yatak yapmak için iki tane $(thing)Saman Bloğunu$() yan yana yerleştir ve ardından bir $(thing)Ham Büyük Kürk$() ile sağ tıkla. Büyük kürk, $(thing)ayı$() ve $(thing)inek$() gibi büyük kara hayvanlarından düşer"
     },
     {
       "type": "patchouli:multiblock",
@@ -22,8 +22,8 @@
           "D": "tfc:thatch_bed[part=foot,facing=east]"
         }
       },
-      "name": "Saz Yatak",
-      "text": "İnşa edilmiş bir saz yatak.",
+      "name": "Saman Yatak",
+      "text": "Hazırlanmış bir saman yatak.",
       "enable_visualize": false
     }
   ],
